@@ -1,0 +1,1 @@
+[19-Feb-2012 03:02:47] PHP Fatal error:  Call to undefined function sf_update_option() in /home/nakedbea/public_html/wp-content/plugins/simple-forum/styles/icons/default/ICON_DEFAULTS.php on line 55

@@ -1,0 +1,16 @@
+/* -- This is the place to add your own style modifications without touching the original styles -- */
+
+body { }
+
+/* ---- If you want to change widget titles colors and home page category title colors, delete this line and change the colors below
+
+.widgettitle, h2.home-title, h1.archive-title {
+	padding:5px 10px;
+	font-weight:bold;
+	font-size:10pt;
+	background: #000;
+	color:#fff;
+	}
+
+You'll also need to delete this line after you change the colors above ---- */
+

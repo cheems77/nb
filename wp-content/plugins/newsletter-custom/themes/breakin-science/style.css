@@ -1,0 +1,25 @@
+body {
+	background-color: #000000;
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFFFFF;
+}
+a:active {
+	color: #FFFFFF;
+}
+.style2 {font-size: x-large}
+.style5 {color: #0000FF}
+.style6 {
+	font-size: x-large;
+	color: #FF6600;
+	font-weight: bold;
+}
+
