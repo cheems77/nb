@@ -10,11 +10,6 @@ sitemap.xml
 *.log
 *.zip
 *.mp3
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
 *.xml
 wp-content/cache/
 wp-content/backups/
