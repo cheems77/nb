@@ -1,10 +1,10 @@
 === Bad Behavior ===
 Tags: comment,trackback,referrer,spam,robot,antispam
-Contributors: error, markjaquith, skeltoac
+Contributors: error
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=error%40ioerror%2eus&item_name=Bad%20Behavior%20%28From%20WordPress%20Page%29&no_shipping=1&cn=Comments%20about%20Bad%20Behavior&tax=0&currency_code=USD&bn=PP%2dDonationsBF&charset=UTF%2d8
 Requires at least: 3.1
 Tested up to: 3.4.2
-Stable tag: 2.2.11
+Stable tag: 2.2.13
 
 Bad Behavior prevents spammers from ever delivering their junk, and in many
 cases, from ever reading your site in the first place.
@@ -87,10 +87,12 @@ block reason to filter results.
 
 == Release Notes ==
 
-= Bad Behavior 2.0 Known Issues =
+= Bad Behavior 2.2 Known Issues =
 
-* Bad Behavior 2.0 requires MySQL 4.1 or later and PHP 4.3 or later. Bad
-Behavior 2.1 requires MySQL 5.0 or later and PHP 5.2 or later.
+* Bad Behavior 2.2 requires MySQL 5.0 or later and PHP 5.2 or later.
+
+* CloudFlare users must enable the Reverse Proxy option in Bad Behavior's
+settings. See the documentation for further details.
 
 * Bad Behavior is unable to protect internally cached pages on MediaWiki.
 Only form submissions will be protected.
@@ -100,7 +102,7 @@ you must remove the old version of Bad Behavior from your system manually
 before manually installing the new version. Other platforms are not
 affected by this issue.
 
-* Bad Behavior on WordPress requires version 2.7 or later. Users of older
+* Bad Behavior on WordPress requires version 3.1 or later. Users of older
 versions should upgrade WordPress prior to installing Bad Behavior.
 
 * On WordPress when using WP-Super Cache, Bad Behavior must be enabled in
@@ -113,8 +115,3 @@ warnings when Spam Karma 2 displays its internally generated CAPTCHA. This
 is a design problem in Spam Karma 2. Contact the author of Spam Karma 2 for
 a fix.
 
-== Upgrade Notice ==
-
-= 2.0.40 =
-
-This release fixes a security issue. Upgrade as soon as possible.

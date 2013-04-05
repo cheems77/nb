@@ -3,7 +3,7 @@ Contributors: jackdewey
 Donate link: http://yannickcorner.nayanna.biz/wordpress-plugins/link-library
 Tags: link, list, directory, page, library, AJAX, RSS, feeds, inline, search, paging, add, submit, import, batch
 Requires at least: 2.7
-Tested up to: 3.4.1
+Tested up to: 3.5.1
 Stable tag: trunk
 
 The purpose of this plugin is to add the ability to output a list of link categories and a complete list of links with notes and descriptions.
@@ -58,6 +58,85 @@ In addition to specifying a library, categories to be displayed can be specified
 Further configuration is available under the Link Library Settings panel.
 
 == Changelog ==
+
+= 5.7.3 =
+* Fixed bug in on-demand thumbnail generation
+
+= 5.7.2 =
+* Added div around Thumbshots notice to allow paying users to hide notice (free users need to keep notice displayed to avoid being banned by service)
+
+= 5.7.1 =
+* Fixed issue with Thumbshots CID having non-url compliant characters
+
+= 5.7 =
+* Re-worked Thumbshots integration to comply with new terms of use
+* Updated french translation
+
+= 5.6.9 =
+* Added option to load styling on all pages with keyword 'all'
+
+= 5.6.8 =
+* Corrected error from version 5.6.7
+
+= 5.6.7 =
+* Added option to load styling on category pages with keyword 'category'
+
+= 5.6.6 =
+* Added option to load styling on front page with keyword 'front'
+
+= 5.6.5 =
+* Adds a div class to category names for styling
+
+= 5.6.4 =
+* Added new option so that no category is shown in AJAX mode until the visitor selects a category
+
+= 5.6.3 =
+* Re-implemented changes from version 5.6.1
+
+= 5.6.2 =
+* Rolled back changes
+
+= 5.6.1 =
+* Corrected problem with two undefined variables
+
+= 5.6 =
+* Added count of links to moderate in top-level Link Library menu item
+* Added dashboard widget to display count of links to moderate
+
+= 5.5.9.1 =
+* Changed WP 3.5 support code to force presence of Link Manager if Link Library is installed and activated
+
+= 5.5.9 =
+* Removed check for presence of Link Manager in versions older than 3.5
+
+= 5.5.8 =
+* Added check for presence of Link Manager to support version 3.5 where the link manager will be inactive by default
+
+= 5.5.7 =
+* Added codes in pop-up content to display link rating and rss link
+
+= 5.5.6 =
+* Fixed link visit tracking code
+
+= 5.5.5 =
+* Added codes in pop-up content to display link submitter, link alternate URL and number of visits
+
+= 5.5.4 =
+* Attached popup to image and link name instead of only link name, when configured
+
+= 5.5.3 =
+* Added code in pop-up content to display link description, link large description, telephone number and e-mail
+* Added pop-up configuration options to specify width and height
+
+= 5.5.2 =
+* Updated link popup mechanism to use link target information
+
+= 5.5.1 =
+* Added support to convert [ and ] to < and > in large description fields
+
+= 5.5 =
+* Added new option to display a popup with user-defined content when links are clicked, then present user with link to click through
+* Updated danish translation
 
 = 5.4.9.5 =
 * Fixed problem with category links not going to the correct results page when pagination is turned on

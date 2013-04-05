@@ -50,11 +50,11 @@ Template Name: Profiles
 <br />
 <br />
 Music: <?php 
-$terms = get_the_terms($post->ID, 'Skills'); 
-$count = count($terms);
+$music_terms = get_the_terms($post->ID, 'Skills'); 
+$count = count($music_terms);
  if ( $count > 0 ){
-     foreach ( $terms as $term ) {
-       echo $term->name . ", ";
+     foreach ( $music_terms as $musictype) {
+       echo $musictype->name . ", ";
         
      }
  }
